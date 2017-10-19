@@ -13,8 +13,12 @@ public  class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        initDate();
+        initOnCLikc();
 
+    }
+
+    private void initOnCLikc() {
+        text_Send.setText("xxxx");
     }
 
     private void initDate() {
